@@ -11,16 +11,11 @@
   align-items: center;
   height: 100%; /* Set height to 100% of viewport height */
 }
-@media screen and (min-width: 768px) {
-  .menu-container {
-    background-size: auto; /* Adjust background size for smaller screens */
-    
-  }
-}
 
-@media screen and (min-width: 769px) {
+
+@media screen and (max-width: 769px) {
   .menu-container {
-    background-size: cover; /* Default background size for larger screens */
+    background-image: url('../../../public/images/background2.jpg'); 
   }
 }
 .menu-list {
