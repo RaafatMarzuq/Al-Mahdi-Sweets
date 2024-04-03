@@ -14,7 +14,7 @@ function App() {
 
   return (
     
-    <BrowserRouter basename='Al-Mahdi-Sweets'>
+    <BrowserRouter basename={process.env.PUBLIC_URL }>
     <Header />
           <Routes>
               <Route  path='/'  element={<HomePage/>}  />
