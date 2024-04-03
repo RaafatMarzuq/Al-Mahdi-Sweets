@@ -13,7 +13,7 @@ function App() {
   
 
   return (
-    <div className="App">
+    
     <BrowserRouter basename={process.env.PUBLIC_URL }>
     <Header />
           <Routes>
@@ -23,12 +23,11 @@ function App() {
               <Route  path='/coffeeMenu'  element={<MenuPage MenuName={"חם ללב"} MenuItems={coffeeMenu} />}  />   
               <Route  path='/specialDessertMenu'  element={<MenuPage MenuName={"המיוחדים שלנו"} MenuItems={specialDessertMenu} />}  />   
           </Routes>
-
+    <Footer/>
       </BrowserRouter> 
-      <Footer/>
-    
       
-    </div>
+    
+    
   );
 }
 
