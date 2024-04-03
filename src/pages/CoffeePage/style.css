@@ -1,54 +1,61 @@
 .menu-container {
-
-    background-image: url('../../../public/images/background1.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    text-align: center;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Set height to 100% of viewport height */
+  background-image: url('../../../public/images/background1.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh; /* Set height to 100% of viewport height */
+}
+@media screen and (min-width: 768px) {
+  .menu-container {
+    background-size: auto; /* Adjust background size for smaller screens */
     
   }
-  
-  
-  .menu-list {
-    background-color: rgba(255, 255, 255, 0.65); 
-    border-radius: 8px;
-    list-style-type: none;
-    padding: 20px;
+}
+
+@media screen and (min-width: 769px) {
+  .menu-container {
+    background-size: cover; /* Default background size for larger screens */
   }
-  
-  .menu-item {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between; /* Add space between items */
-    align-items: center; /* Center items vertically */
-  }
-  
-  
+}
+.menu-list {
+  background-color: rgba(255, 255, 255, 0.65); 
+  border-radius: 8px;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.menu-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between; /* Add space between items */
+  align-items: center; /* Center items vertically */
+}
+
+.item-name {
+  font-size: 20px;
+}
+
+.item-price {
+  font-weight: bold;
+  margin-right: 400px; /* Adjust margin for smaller screens */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
   .item-name {
-    font-size: 20px;
+    font-size: 16px; /* Adjust font size for smaller screens */
   }
-  
+
   .item-price {
-    font-weight: bold;
-    margin-right: 500px;
+    font-size: 16px; /* Adjust font size for smaller screens */
+    margin-right: 200px; /* Adjust margin for smaller screens */
   }
-  
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
-    .item-name {
-      font-size: 16px; /* Adjust font size for smaller screens */
-    }
-  
-    .item-price {
-      font-size: 16px; /* Adjust font size for smaller screens */
-      margin-right:300px;
-    }
-  }
-  
+}
