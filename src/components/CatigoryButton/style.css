@@ -15,6 +15,7 @@
 @media screen and (max-width: 768px) {
   .imageButton {
     height: 100px; /* Adjusted height for smaller screens */
+    width: 70%;
     margin: 5px; /* Adjusted margin for smaller screens */
   }
 }
