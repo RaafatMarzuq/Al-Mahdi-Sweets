@@ -4,7 +4,7 @@ import './style.css';
 const CatigryButton = (props) => {
 
   return (
-      <div className="imageButton" onClick={()=>{ props.onClick(props.id)}} style={{ width: '25%' }}>
+      <div className="imageButton" onClick={()=>{ props.onClick(props.id)}} >
         <span className="imageSrc" style={{ backgroundImage: "url('Al-Mahdi-Sweets/images/" + props.ImageURL + "')"}}></span>
         <span className="imageBackdrop"></span>
         <span className="image">

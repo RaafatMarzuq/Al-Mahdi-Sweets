@@ -1,6 +1,7 @@
 .imageButton {
   position: relative;
   height: 200px; /* Default height for larger screens */
+  width: 25%;
   margin: 10px; /* Default margin */
   overflow: hidden;
   border: none;
@@ -13,10 +14,8 @@
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
-  .imageButton {
-    height: 100px;
-     width: 600px;
-    margin: 5px; 
+  .imageButton{
+    width: 80%;
   }
   .imageText {
     
