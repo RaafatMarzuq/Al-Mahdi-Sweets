@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-    <BrowserRouter basename={process.env.PUBLIC_URL +"/"}>
+    <BrowserRouter basename={process.env.PUBLIC_URL }>
     <Header />
           <Routes>
               <Route  path='/'  element={<HomePage/>}  />

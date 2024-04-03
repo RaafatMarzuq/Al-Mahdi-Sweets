@@ -18,6 +18,11 @@
      width: 400px;
     margin: 5px; 
   }
+  .imageText {
+    
+    font-size: medium;
+    
+  }
 }
 
 .imageButton:hover, .imageButton:focus-visible {
