@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter,Route ,Routes, } from 'react-router-dom';
-import { HashRouter as BrowserRouter } from 'react-router-dom';
+import { Route ,Routes, } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 import {specialDessertMenu,milkshakeMenu,coffeeMenu,dessertsMenu} from "./components/MenuItem" ;
 import HomePage from "./pages/HomePage/HomePage";
@@ -14,7 +14,7 @@ function App() {
 
   return (
     
-    <BrowserRouter basename={process.env.PUBLIC_URL }>
+    <BrowserRouter basename='Al-Mahdi-Sweets'>
     <Header />
           <Routes>
               <Route  path='/'  element={<HomePage/>}  />
