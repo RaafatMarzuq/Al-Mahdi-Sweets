@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Al-Mahdi-Sweets/static/css/main.79e4d07f.css",
+    "main.css": "/Al-Mahdi-Sweets/static/css/main.7d60debf.css",
     "main.js": "/Al-Mahdi-Sweets/static/js/main.cce9baff.js",
     "static/media/background1.jpg": "/Al-Mahdi-Sweets/static/media/background1.1d0c0e62dee89ed55eed.jpg",
     "index.html": "/Al-Mahdi-Sweets/index.html",
-    "main.79e4d07f.css.map": "/Al-Mahdi-Sweets/static/css/main.79e4d07f.css.map",
+    "main.7d60debf.css.map": "/Al-Mahdi-Sweets/static/css/main.7d60debf.css.map",
     "main.cce9baff.js.map": "/Al-Mahdi-Sweets/static/js/main.cce9baff.js.map"
   },
   "entrypoints": [
-    "static/css/main.79e4d07f.css",
+    "static/css/main.7d60debf.css",
     "static/js/main.cce9baff.js"
   ]
 }
