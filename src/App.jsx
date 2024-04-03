@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter,Route ,Routes, } from 'react-router-dom';
+import { HashRouter as BrowserRouter } from 'react-router-dom';
 
 import {specialDessertMenu,milkshakeMenu,coffeeMenu,dessertsMenu} from "./components/MenuItem" ;
 import HomePage from "./pages/HomePage/HomePage";
