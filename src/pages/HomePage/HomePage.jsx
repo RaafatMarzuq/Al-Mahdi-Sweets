@@ -16,10 +16,10 @@ const HomePage = () => {
 
     return (
     <div className="container">
-      <CategryButton id="dessertsMenu" onClick={handleOnClick} name={`קינוח מפנק`} ImageURL={`קינוח-מפנק.jpg`} />
-      <CategryButton id="specialDessertMenu" onClick={handleOnClick} name={`המיוחדים שלנו`} ImageURL={`מיוחדים-שלנו.jpg`} />
-      <CategryButton id="milkshakeMenu" onClick={handleOnClick} name={`מילקשייק`} ImageURL={`מילקשייק.jpg`} />
-      <CategryButton id="coffeeMenu" onClick={handleOnClick} name={`חם ללב`} ImageURL={`חם-ללב.jpg`} />
+      <CategryButton id="dessertsMenu" onClick={handleOnClick} name={`קינוח מפנק`} ImageURL={`desserts.jpg`} />
+      <CategryButton id="specialDessertMenu" onClick={handleOnClick} name={`המיוחדים שלנו`} ImageURL={`specialDesserts.jpg`} />
+      <CategryButton id="milkshakeMenu" onClick={handleOnClick} name={`מילקשייק`} ImageURL={`milkshake.jpg`} />
+      <CategryButton id="coffeeMenu" onClick={handleOnClick} name={`חם ללב`} ImageURL={`coffee.jpg`} />
       
     </div>
   );

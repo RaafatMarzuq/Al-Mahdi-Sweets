@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./Header/Header";
-import Footer from "./Footer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 // import 'animate.css';
 import { BrowserRouter,Route ,Routes, } from 'react-router-dom';
 
-import {specialDessertMenu,milkshakeMenu,coffeeMenu,dessertsMenu} from "./MenuItem" ;
-import HomePage from "../pages/HomePage/HomePage";
-import MenuPage from "../pages/CoffeePage/MenuPage";
+import {specialDessertMenu,milkshakeMenu,coffeeMenu,dessertsMenu} from "./components/MenuItem" ;
+import HomePage from "./pages/HomePage/HomePage";
+import MenuPage from "./pages/CoffeePage/MenuPage";
 
 
 function App() {

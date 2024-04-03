@@ -1,5 +1,6 @@
 import React from "react";
 import logoIcon from './LOGO-3.png'
+import './style.css'
 
 function Header() {
   return (

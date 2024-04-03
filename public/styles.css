@@ -1,52 +1,18 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background-image: url('./images/background1.jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat;
+  
   margin: 0; 
   padding: 0; 
 }
 
-header {
 
-  background-color: rgb(34, 30, 30);
-  padding: 16px 32px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-}
-.header-content {
-  display: flex;
-  align-items: center;
-}
-
-.icon {
-  
-  margin-right: 10px; 
-}
-header h4 {
-
-  color: #fff;
-  font-family: "McLaren", cursive;
-  font-weight: 200;
-}
-
-footer {
-  display: flex;
-	justify-content: center;
-	align-items: center;
-  padding: 40px;
-}
-
-footer p {
-  color: #ccc;
-}
 
 
 
