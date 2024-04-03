@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL }>
     <Header />
           <Routes>
-              <Route  path='/'  element={<HomePage/>}  />
+              <Route  path=''  element={<HomePage/>}  />
               <Route   path='/dessertsMenu'  element={<MenuPage MenuName={"קינוח מפנק"} MenuItems={dessertsMenu} />}  />
               <Route  path='/milkshakeMenu'  element={<MenuPage MenuName={"מילקשייק"} MenuItems={milkshakeMenu} />}  />  
               <Route  path='/coffeeMenu'  element={<MenuPage MenuName={"חם ללב"} MenuItems={coffeeMenu} />}  />   

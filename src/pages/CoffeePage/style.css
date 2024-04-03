@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   
-  height: 100vh; /* Set height to 100% of viewport height */
+  height: 90%; /* Set height to 100% of viewport height */
 }
 @media screen and (min-width: 768px) {
   .menu-container {

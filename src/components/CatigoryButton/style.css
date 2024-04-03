@@ -14,9 +14,7 @@
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
-  .imageButton{
-    width: 80%;
-  }
+ 
   .imageText {
     
     font-size: small;
