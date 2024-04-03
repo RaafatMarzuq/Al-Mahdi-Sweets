@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-// import 'animate.css';
 import { BrowserRouter,Route ,Routes, } from 'react-router-dom';
 
 import {specialDessertMenu,milkshakeMenu,coffeeMenu,dessertsMenu} from "./components/MenuItem" ;
