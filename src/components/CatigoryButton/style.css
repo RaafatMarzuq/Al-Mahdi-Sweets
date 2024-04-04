@@ -84,9 +84,9 @@
 
 .imageText {
   color: black;
-  font-size: xx-large;
+  font-size: xx-large ;
   border: 4px solid transparent;
-  font-weight: bold;
+  font-weight:bolder;
 }
 
 .imageText:hover, .imageText:focus-visible {
