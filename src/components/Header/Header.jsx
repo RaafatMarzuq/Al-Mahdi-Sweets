@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <div className="header-content">
-        <h4>קונדיטוריה ובית קפה אלמהדי</h4> 
+        <h4>קונדיטוריה ובית קפה</h4> 
         <img className="icon" src={logoIcon} alt="Logo Icon" />
       </div> 
     </header>
