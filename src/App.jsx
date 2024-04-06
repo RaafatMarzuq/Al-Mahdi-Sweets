@@ -3,10 +3,10 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { Route ,Routes, } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
-
 import {specialDessertMenu,milkshakeMenu,coffeeMenu,dessertsMenu} from "./components/MenuItem" ;
 import HomePage from "./pages/HomePage/HomePage";
 import MenuPage from "./pages/CoffeePage/MenuPage";
+import './backgroundStyle.css'
 
 
 function App() {
