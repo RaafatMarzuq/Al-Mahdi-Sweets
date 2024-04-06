@@ -7,7 +7,7 @@ header {
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Add this line */
+    justify-content: flex-end; 
 }
 
 .icon {
