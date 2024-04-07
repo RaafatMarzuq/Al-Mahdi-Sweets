@@ -18,11 +18,8 @@
    
   
 @media screen and (max-width: 769px) {
-    .menu-container {
-    background-image: url('../public/images/background1.jpg'); 
-    background-size: cover;
+    body {
     background-position: 100%; 
-    background-repeat: no-repeat; 
     }
   }
   
