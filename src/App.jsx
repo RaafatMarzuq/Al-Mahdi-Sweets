@@ -13,7 +13,6 @@ function App() {
   
 
   return (
-    
     <BrowserRouter basename={process.env.PUBLIC_URL }>
     <Header />
           <Routes>
@@ -25,8 +24,7 @@ function App() {
           </Routes>
     <Footer/>
       </BrowserRouter> 
-      
-    
+
     
   );
 }

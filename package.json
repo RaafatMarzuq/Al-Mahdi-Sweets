@@ -6,6 +6,7 @@
   "main": "src/index.js",
   "dependencies": {
     "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "gh-pages": "^6.1.1",
     "react": "^16.8.6",
     "react-dom": "16.8.6",
@@ -22,7 +23,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-   
   },
   "browserslist": [
     ">0.2%",
