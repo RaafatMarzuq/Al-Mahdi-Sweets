@@ -10,7 +10,7 @@ const HomePage = () => {
   const [toPage,setToPage] = useState("")
   let navigate = useNavigate();
     useEffect(()=> {
-      Aos.init();
+      Aos.init({duration : 800});
      toPage ==="Home"? navigate(`/`):navigate(`/${toPage}`) 
     },[toPage,navigate])
     function handleOnClick(page){
