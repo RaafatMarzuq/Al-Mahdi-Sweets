@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './popUpStyle.css';
 import  todaysSpecial  from './knafe.png';
+import { GrClose } from "react-icons/gr";
+
 
 
 const Popup = ({ message, onClose }) => {
@@ -24,7 +26,7 @@ const Popup = ({ message, onClose }) => {
   return (
     <div className="popup" style={{ top: `${topOffset}px` }}>
       <div className="popup-inner">
-        <button className="close-btn" onClick={onClose}>סגור</button>
+        <button className="close-btn" onClick={onClose}><GrClose /></button>
         <h1>המיוחדים שלנו להיום</h1>
         <img className='todays-speacial-image' src={todaysSpecial} alt='knafe' />
         <p>{message}</p>
