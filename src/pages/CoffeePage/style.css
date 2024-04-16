@@ -30,17 +30,25 @@
 
 .item-price {
   font-weight: bold;
-  margin-right: 400px; /* Adjust margin for smaller screens */
+  margin-right: 400px; 
 }
 
-/* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .item-name {
-    font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 16px; 
   }
 
   .item-price {
-    font-size: 16px; /* Adjust font size for smaller screens */
-    margin-right: 200px; /* Adjust margin for smaller screens */
+    font-size: 16px; 
+    margin-right: 200px;
   }
+}
+.back-button{
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  align-content: space-between;
+  /* border: none;
+  background: none;
+  cursor: pointer; */
 }
